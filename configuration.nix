@@ -29,9 +29,10 @@
   # networking.proxy.noProxy = "127.0.0.1,localhost,internal.domain";
 
   # Select internationalisation properties.
-  i18n.defaultLocale = "en_US.UTF-8";
+  i18n.defaultLocale = "ja_JP.UTF-8";
   console = {
-    font = "Lat2-Terminus16";
+    font = "ter-i32b";
+    packages = with pkgs; [ terminus_font ]; 
     keyMap = "us";
     useXkbConfig = false; # use xkb.options in tty.
   };
