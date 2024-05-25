@@ -31,7 +31,7 @@
   # Select internationalisation properties.
   i18n.defaultLocale = "ja_JP.UTF-8";
   console = {
-    font = "ter-i32b";
+    font = "ter-i24b";
     packages = with pkgs; [ terminus_font ]; 
     keyMap = "us";
     useXkbConfig = false; # use xkb.options in tty.
